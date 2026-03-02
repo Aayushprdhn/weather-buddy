@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="search">
+            <input id="city" type="text" placeholder="Enter city name" spellcheck="false">
+            <button id="Btn">
+                <span class="material-symbols-outlined">search</span></button>
+        </div>
+
+        <div class="weather">
+            
+
+            <h2 class="city">Nottingham</h2>
+            <h3 class="date"></h3>
+            <h3 class="condition">clear</h3>
+            <h1 class="temp">22°c</h1>
+            <span class="material-symbols-outlined weather-icon">cloud</span>
+
+            <div class="details">
+                <div class="row">
+                    
+                    <p>Humidity</p>
+                    <p class="humidity">50%</p>
+
+                </div>
+                <div class="row">
+                    
+
+                    <p>Wind Speed</p>
+                    <p class="wind">5 kph</p>
+                </div>
+                <div class="row">
+
+                    <p>Wind Direction</p>
+                    <p class="wind-direction">180°</p>
+
+
+                </div>
+                <div class="row">
+                    <p>Pressure</p>
+                    <p class="pressure">1013</p>
+
+
+                </div>
+            </div>
+            <script src="weather.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
