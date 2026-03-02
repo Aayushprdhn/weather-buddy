@@ -46,7 +46,7 @@ if($row = mysqli_fetch_assoc($result)) {
 }
 
 if (empty($rows)) {
-    $url = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=$cityName&appid=adac6696f9e7517e169e3189ea0a4d34";
+    $url = "Your API key here";
     $response = file_get_contents($url);
     $data = json_decode($response, true);
 
@@ -70,4 +70,5 @@ if (empty($rows)) {
 
 
 echo json_encode($rows);
+
 ?>
